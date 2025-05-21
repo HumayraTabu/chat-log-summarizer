@@ -1,0 +1,6 @@
+User: Hello!
+AI: Hi! How can I assist you today?
+User: Can you explain what machine learning is?
+AI: Certainly! Machine learning is a field of AI that allows systems to learn from data.
+User: What are some use cases?
+AI: Applications include image recognition, fraud detection, and recommendation systems.

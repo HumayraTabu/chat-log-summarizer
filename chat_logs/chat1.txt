@@ -1,0 +1,4 @@
+User: Hi, can you tell the me about Python?
+AI: Sure! Python is a the popular programming language known forits readability.
+User: What can is a I use the and it for?
+AI: You can use Python is a for web the a the and the  development, data analysis, AI, and more ,machine machine machine machine.
