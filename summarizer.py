@@ -62,7 +62,7 @@ def generate_summary(user_msgs, ai_msgs, filename, use_tfidf=True):
         topic = "The conversation covered general topics"
 
     # Summary Output
-    print(f"\n=== Summary for '{filename}' ===")
+    print(f"\nSummary for '{filename}'")
     print(f"- The conversation had {total_exchanges} exchanges.")
     print(f"- {topic}")
     print(f"- Most common keywords: {', '.join(keywords)}")
@@ -72,7 +72,7 @@ def analyze_and_summarize_folder(folder_path, use_tfidf=True):
     for filename in os.listdir(folder_path):
         if filename.endswith('.txt'):
             file_path = os.path.join(folder_path, filename)
-            print(f"\n--- Analyzing {filename} ---")
+            print(f"\n{filename} Results")
             user_msgs, ai_msgs = parse_chat_log(file_path)
 
             print("User Messages:")
